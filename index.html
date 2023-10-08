@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nitfix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /* Nav Bar mobile support (button to toggle navigation) */
+        .menu-toggle {
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            height: 20px;
+            margin: 10px;
+            left: 50%;
+            position: relative;
+            transform: translate(-50%);
+        }
+
+        .bar {
+            width: 100%;
+            height: 3px;
+            background-color: #000; 
+            margin: 4px 0;
+        }
+
+        
+        .mobile {
+            width: 100%;
+            height: auto;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; 
+            padding-top: 30px; 
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .main-nav.show {
+                display: block;
+            }
+
+            .menu-toggle {
+                cursor: pointer;
+                display: block;
+                width: 30px;
+                height: 20px;
+                margin: 10px;
+                left: 50%;
+                position: relative;
+                transform: translate(-50%);
+            }
+
+            .main-nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- HEADER -->
+    <header>
+        <div class="netflixLogo">
+            <a id="logo" href="#home"><img src="https://i.postimg.cc/j2G66GWL/logo.png" alt="Logo Image"></a>
+        </div>
+
+        <!-- the nev mobile toggle button -->
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="#home">Popular</a>
+            <a href="#movies">Action Movies</a>
+            <a href="#drama">Drama Movies</a>
+            <a href="#thriller">Thriller Movies</a>
+            <a href="#horror">Horror Movies</a>
+
+        </nav>
+        <nav class="sub-nav">
+            <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+            <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+            <a href="#">Account</a>
+        </nav>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- MAIN CONTAINER -->
+    <section class="main-container">
+<!-- Popular -->
+        <div class="location" id="home">
+            <h1 id="home">Popular on Nitfix</h1>
+            <div class="box">
+                <!-- VIDEOs Popular -->
+                <div class="video-container" data-video-id="9iugIrxhWt4">
+                    <img src="https://img.youtube.com/vi/9iugIrxhWt4/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </div>
+                <div class="video-container" data-video-id="CQCcapWEbu8">
+                    <img src="https://img.youtube.com/vi/CQCcapWEbu8/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </div>
+                <div class="video-container" data-video-id="WeOuKguaBec">
+                    <img src="https://img.youtube.com/vi/WeOuKguaBec/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </div>
+                <div class="video-container" data-video-id="XFzlTWx-MY0">
+                    <img src="https://img.youtube.com/vi/XFzlTWx-MY0/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </div>
+                <div class="video-container" data-video-id="B0bllIPSp0w">
+                    <img src="https://img.youtube.com/vi/B0bllIPSp0w/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </div>
+                <div class="video-container" data-video-id="et3VfIpD7gM">
+                    <img src="https://img.youtube.com/vi/et3VfIpD7gM/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+                </div>
+                <!-- here you can add more videos -->
+            </div>
+        </div>
+    
+
+
+    <!-- Action Movies -->
+    <div class="location" id="movies">
+        <h1 id="movies">Action Movies</h1>
+        <div class="box">
+            <!-- Videos action -->
+            <div class="video-container" data-video-id="V32q4W1QYjI">
+                <img src="https://img.youtube.com/vi/V32q4W1QYjI/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="lbgwJJkVwCQ">
+                <img src="https://img.youtube.com/vi/lbgwJJkVwCQ/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="JBgrgbLPbXA">
+                <img src="https://img.youtube.com/vi/y8bl1ISrlks/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="LHYkJ-5O2IM">
+                <img src="https://img.youtube.com/vi/LHYkJ-5O2IM/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="y8GafhyEsj0">
+                <img src="https://img.youtube.com/vi/y8GafhyEsj0/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="34AAAV8YHwQ">
+                <img src="https://img.youtube.com/vi/34AAAV8YHwQ/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <!-- here you can add more videos -->
+        </div>
+    </div>
+
+    <!-- Drama Movies -->
+     <div class="location" id="movies">
+        <h1 id="drama">Drama Movies</h1>
+        <div class="box">
+            <!-- Videos drama -->
+            <div class="video-container" data-video-id="WgZinDNRVAM">
+                <img src="https://img.youtube.com/vi/WgZinDNRVAM/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="xmV2bfuQwzg">
+                <img src="https://img.youtube.com/vi/xmV2bfuQwzg/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="bCcCvVQv0cw">
+                <img src="https://img.youtube.com/vi/bCcCvVQv0cw/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="xv5YTv25c3M">
+                <img src="https://img.youtube.com/vi/xv5YTv25c3M/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="EAt9UwmeMVw">
+                <img src="https://img.youtube.com/vi/EAt9UwmeMVw/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="_Rwxj_pQZLE">
+                <img src="https://img.youtube.com/vi/_Rwxj_pQZLE/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <!-- here you can add more videos -->
+        </div>
+    </div>
+
+    <!-- Thriller -->
+    <div class="location" id="movies">
+        <h1 id="thriller">Thriller Movies</h1>
+        <div class="box">
+            <!-- Videos Thriller -->
+            <div class="video-container" data-video-id="99c61Ii48Jc">
+                <img src="https://img.youtube.com/vi/99c61Ii48Jc/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="8zRsxVznKmk">
+                <img src="https://img.youtube.com/vi/8zRsxVznKmk/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="GZ_oYk8SNKc">
+                <img src="https://img.youtube.com/vi/GZ_oYk8SNKc/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="aBkPorVbSkc">
+                <img src="https://img.youtube.com/vi/aBkPorVbSkc/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="Dm2fZGv7WP4">
+                <img src="https://img.youtube.com/vi/Dm2fZGv7WP4/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="nEbu0PFzgBM">
+                <img src="https://img.youtube.com/vi/nEbu0PFzgBM/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <!-- here you can add more videos -->
+        </div>
+    </div>
+
+
+
+    <!-- Horror -->
+    <div class="location" id="movies">
+        <h1 id="horror">Horror Movies</h1>
+        <div class="box">
+            <!-- Videos Horror -->
+            <div class="video-container" data-video-id="/ihLLCDqILbY">
+                <img src="https://img.youtube.com/vi/ihLLCDqILbY/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="E77HnLXU-Sc">
+                <img src="https://img.youtube.com/vi/E77HnLXU-Sc/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="_xDZyklqgI8">
+                <img src="https://img.youtube.com/vi/_xDZyklqgI8/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="XkBiUWpteVk">
+                <img src="https://img.youtube.com/vi/XkBiUWpteVk/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="yTnkmxKfnAU">
+                <img src="https://img.youtube.com/vi/yTnkmxKfnAU/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <div class="video-container" data-video-id="Po4iNQTbX7A">
+                <img src="https://img.youtube.com/vi/Po4iNQTbX7A/maxresdefault.jpg" alt="YouTube Video Thumbnail">
+            </div>
+            <!-- here you can add more videos -->
+        </div>
+    </div>
+
+
+</section>
+
+    <!-- END OF MAIN CONTAINER -->
+
+    <!-- LINKS -->
+    <section class="link">
+        <div class="logos">
+            <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+        </div>
+        <div class="sub-links">
+            <ul>
+                <li><a href="#">Audio and Subtitles</a></li>
+                <li><a href="#">Audio Description</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Legal Notices</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+        </div>
+    </section>
+    <!-- END OF LINKS -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy 2023 Nitfix, Inc.</p>
+    </footer>
+</div>
+
+<script>
+    // JavaScript
+
+    // new mobile nav bar toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mainNav = document.querySelector('.main-nav');
+
+    menuToggle.addEventListener('click', () => {
+        mainNav.classList.toggle('show');
+    });
+
+    // function to replace the picture with the video iframe
+    function playVideo(videoId) {
+        const videoContainer = document.querySelector(`[data-video-id="${videoId}"]`);
+        videoContainer.innerHTML = `<iframe class="mobile" width="1080" height="720" src="https://www.youtube.com/embed/${videoId}?autoplay=1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>`;
+    }
+
+    // add event listener to each video container (picture)
+    const videoContainers = document.querySelectorAll('.video-container');
+    videoContainers.forEach(container => {
+        container.addEventListener('click', () => {
+            const videoId = container.getAttribute('data-video-id');
+            playVideo(videoId);
+        });
+    });
+</script>
+</body>
+</html>
