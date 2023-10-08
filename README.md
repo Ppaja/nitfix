@@ -4,5 +4,5 @@ Nitfix is a netflix clone like website that links and plays YouTube videos direc
 
 ## Credits
 
-- [Carlos Avila]([Link to the original developer's GitHub page](https://codepen.io/cb2307/full/NzaOrm)).
+- [Carlos Avila]([Link to codepen.io portfolio page](https://codepen.io/cb2307/full/NzaOrm)).
 
