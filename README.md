@@ -1,5 +1,8 @@
 # Nitfix
 
+![Nitfix](https://github.com/Ppaja/nitfix/raw/main/screen.jpg)
+
+
 Nitfix is a netflix clone like website that links and plays YouTube videos directly on the page. This project is based on a template by Carlos Avila.
 
 ## Credits
